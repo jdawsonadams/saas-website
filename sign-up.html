@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <meta name="viewport" content="sharevault">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Roboto" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+      <nav class="topnav">
+        <ul class="list-group push-0 island-1-2">
+          <li><a class="logo giga push-r link-box gutter-1-4" href="index.html">sharevault</a></li>
+          <li><a class="link-box gutter-1-2" href="index.html">home</a></li>
+          <li><a class="link-box gutter-1-2" href="tour.html">tour</a></li>
+          <li><a class="link-box gutter-1-2" href="pricing.html">pricing</a></li>
+          <li><a class="callaction signup" href="signup.html">sign up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="pad-t-2">
+
+    <section class="bg-image island-2">
+      <article class="island-2">
+        <div class="pin-center-top text island sign-up-content push-double">
+          <h1 class="pad-t push-0 text-center zetta">Sign Up</h1>
+          <p><i class="text-center not-italic">What are you waiting for? It's free!</i></p>
+        </div>
+      </article>
+
+      <section class="push-0 island-2">
+          <div class="gutter-2 max-length">
+            <form action="https://formspree.io/adam0405@algonquinlive.com" method="POST">
+              <div class="grid">
+                <div class="gutter-1-4 unit xs-1-2 s-1-2 m-1-2 l-1-2">
+                  <label for="name">first name</label>
+                  <input class="micro" type="text" placeholder="johny" id="first-name" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1-2 s-1-2 m-1-2 l-1-2">
+                  <label for="name">last name</label>
+                  <input class="micro" type="text" placeholder="appleseed" id="last-name" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="email">email</label>
+                  <input class="micro" type="email" placeholder="johnyappleseed@me.com" id="email" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="username">username</label>
+                  <input class="micro" type="text" placeholder="johnyapple" id="username" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="password">password</label>
+                  <input class="micro" type="password" placeholder="*******" id="password" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="address">address</label>
+                  <input class="micro" type="text" placeholder="72 apple tree drive" id="address" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="city">city</label>
+                  <input class="micro" type="text" placeholder="fruitcity" id="city" required>
+                </div>
+                <div class="gutter-1-4 unit xs-1 s-1 m-1 l-1">
+                  <label for="plan">choose a plan</label>
+                  <input class="micro" type="hidden" name="_plan" value="choose a plan">
+                  <select id="plan" class="micro" name="_plan">
+                    <option>basic</option>
+                    <option>premium</option>
+                    <option>business</option>
+                  </select>
+                </div>
+                <div class="text-center pad-b unit xs-1 s-1 m-1 l-1">
+                <button class="callaction" type="submit">Sign up!</button>
+              </div>
+              </div>
+            </form>
+          </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="micro unit-content-center">
+    <nav>
+      <ul class="text-center list-group push-0 island-1-2">
+        <li><a class="link-box gutter-2" href="index.html">home</a></li>
+        <li><a class="link-box gutter-2" href="tour.html">tour</a></li>
+        <li><a class="link-box gutter-2" href="pricing.html">pricing</a></li>
+        <li><a class="link-box gutter-2" href="signup.html">sign up</a></li>
+      </ul>
+    </nav>
+    <p class="push-0">© sharevault Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
