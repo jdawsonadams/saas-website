@@ -12,8 +12,13 @@
 </head>
 <body>
 
-  <header>
-    <nav class="topnav">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <nav role="navigation" id="nav" tabindex="0" class="topnav">
       <ul class="list-group push-0 island-1-2">
         <li><a class="logo giga push-r link-box gutter-1-4" href="index.html">sharevault</a></li>
         <li><a class="link-box gutter-1-2" href="index.html">home</a></li>
@@ -24,7 +29,7 @@
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <section class="pad-t-2">
       <div class="island clicks unit-content-center">
         <h1 class="white not-bold push-0 zetta unit-content-center">Get To Know Us</h1>
@@ -39,6 +44,9 @@
         <div class="gutter unit s-1 m-1 l-1-2">
           <p class="roboto milli">We are your new best friend. Whether it’s for personal use or for business, we have you covered. Our software enables users to share data with fellow team members across multiple applications.</p>
           <p class="roboto push-0 milli">We are here to help maintain organization and functionality. With us, your data is protected and secure- no need to worry.</p>
+        </div>
+        <div class="text-center pad-t-2 unit s-1 m-1 l-1">
+          <a class="btn" href="sign-up.html">Get Started Free</a>
         </div>
       </div>
     </section>
