@@ -1,10 +1,10 @@
 html {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   margin: 0;
 }
 
 nav {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: inline-block;
 }
 
@@ -17,7 +17,7 @@ nav a {
 }
 
 a:hover {
-  color: #5E02AD;
+  color: #5e02ad;
 }
 
 .callaction {
@@ -73,7 +73,6 @@ a:hover {
 
 .text {
   z-index: 3;
-
 }
 
 h2 {
@@ -91,7 +90,7 @@ h3 {
 }
 
 .learnmore {
-  border-color: #5E02AD;
+  border-color: #5e02ad;
   border-width: medium;
   border-style: solid;
   padding: .4em;
@@ -107,7 +106,7 @@ h3 {
 }
 
 .logo {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
 }
 
 .signup {
@@ -130,16 +129,16 @@ h3 {
 }
 
 .roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .topnav {
   background-color: #fff;
-  position:fixed;
-  top:0;
-  right:0;
-  left:0;
-  z-index:99;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
 }
 
 .purple {
@@ -178,10 +177,6 @@ td {
 
 .purple-background {
   background-color: #440277;
-}
-
-.white {
-  color: #fff;
 }
 
 .cards {
