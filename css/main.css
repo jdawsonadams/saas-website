@@ -237,3 +237,8 @@ form label {
   }
 
 }
+
+.btnpurple:hover {
+  background-color: #fff;
+  color: #440277;
+}
