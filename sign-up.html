@@ -12,8 +12,13 @@
 </head>
 <body>
 
-  <header>
-    <nav class="topnav">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <nav role="navigation" id="nav" tabindex="0" class="topnav">
       <ul class="list-group push-0 island-1-2">
         <li><a class="logo giga push-r link-box gutter-1-4" href="index.html">sharevault</a></li>
         <li><a class="link-box gutter-1-2" href="index.html">home</a></li>
@@ -24,7 +29,7 @@
     </nav>
   </header>
 
-  <main class="pad-t-2 bg-image">
+  <main role="main" id="main" tabindex="0" class="pad-t-2 bg-image">
     <section class="island-2">
       <section class="push-0 island-2">
         <div class="gutter-2 max-length">
@@ -81,7 +86,7 @@
     </section>
   </main>
 
-  <footer class="micro unit-content-center">
+  <footer role="contentinfo" class="micro unit-content-center">
     <nav>
       <ul class="text-center list-group push-0 island-1-2">
         <li><a class="link-box gutter-2" href="index.html">home</a></li>
