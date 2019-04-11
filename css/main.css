@@ -112,7 +112,8 @@ h3 {
 }
 
 .signup:hover {
-  color: #ef375f;
+  background-color: #ef375f;
+  border-color: #ef375f;
 }
 
 .black {
