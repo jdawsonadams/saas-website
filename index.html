@@ -12,8 +12,13 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header>
-    <nav class="topnav">
+    <nav role="navigation" id="nav" tabindex="0" class="topnav">
       <ul class="list-group push-0 island-1-2">
         <li><a class="logo giga push-r link-box gutter-1-4" href="index.html">sharevault</a></li>
         <li><a class="link-box gutter-1-2" href="index.html">home</a></li>
@@ -24,9 +29,9 @@
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
 
-    <section>
+    <!-- <section id="description" tabindex="0">
       <div class="banner">
         <div class="island pad-b-2 content push-double">
           <h1 class="pad-t title zetta">Sharing made easy. Super easy.</h1>
@@ -35,9 +40,21 @@
         </div>
         <img class="img-flex" src="images/banner-img.png" alt="">
       </div>
+    </section> -->
+    <section>
+      <div class="grid relative">
+        <div class="unit xs-1">
+          <img class="img-flex" src="images/banner-img.png" alt="">
+        </div>
+        <div class="unit xs-1 banner-content gutter-2">
+          <h1 class="pad-t title zetta push-1-2">Sharing made easy. Super easy.</h1>
+          <p><i class="not-italic">Stay on top of things with software that’s easy enough for anyone to use.</i></p>
+          <a class="btn" href="sign-up.html">Get Started Free</a>
+        </div>
+      </div>
     </section>
 
-    <section class="island">
+    <section id="content" tabindex="0" class="island">
       <div class="gutter grid">
         <div class="unit s-1 m-1 l-1">
           <h2 class="not-bold">sharevault</h2>
